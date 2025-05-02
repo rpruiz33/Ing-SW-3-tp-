@@ -3,7 +3,7 @@ import './navBar.css';
 
 const NavBar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-nav">
       <div className="container-fluid">
         <a className="navbar-brand" href="#home">
           Sistema Transporte Publico
@@ -23,13 +23,10 @@ const NavBar = () => {
 
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
+      
+      
             <li className="nav-item">
-              <a className="nav-link" href="/recarga">
-                Recarga
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#login">
+              <a className="nav-link" href="/">
                 Login
               </a>
             </li>

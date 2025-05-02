@@ -1,6 +1,6 @@
 
-.bg-indigo {
-  background-color:  rgb(0, 56, 168)!important;
+.bg-nav {
+  background-color:  #232D4F!important;
   color: white; 
 }
 
@@ -10,8 +10,4 @@
   color: #000;
 }
 
-  .nav-link {
-    &:hover {
-      color: yellow;
-    }
-  }
+

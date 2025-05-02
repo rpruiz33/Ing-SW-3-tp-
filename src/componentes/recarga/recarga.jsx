@@ -25,8 +25,8 @@ const RecargaSaldo = () => {
 
     return (
         <>
-            <div className="container h-100 bg-black"> 
-                <div className="row">
+         <div className=" h-100 bg-black mb-90 p-5 pb-1000 "> 
+         <div className="row  h-100">
                     <div className="col-md-6 offset-md-3">
                         <h2>Recargar</h2>
                         <form onSubmit={recargarSaldo}>

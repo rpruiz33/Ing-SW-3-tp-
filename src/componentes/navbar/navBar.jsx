@@ -5,7 +5,7 @@ const NavBar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-nav">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#home">
+        <a className="navbar-brand" href="/">
           Sistema Transporte Publico
         </a>
 

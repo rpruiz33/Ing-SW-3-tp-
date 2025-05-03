@@ -4,16 +4,17 @@ import Navbar from './componentes/navbar/navBar';
 import Footer from './componentes/footer/footer';
 import Login from './componentes/login/login';
 import Recarga from './componentes/recarga/recarga'; // Asegurate de tener este componente
-
+import Home from './componentes/home/home'; // Asegurate de tener este componente
 function App() {
   return (
     <Router>
       <div >
         <Navbar />
+ 
         <div >
           <Routes>
-          <Route path="/" element={<Login />} />
-            <Route path="/" element={<Login />} />
+            <Route path="/" element={<Home />} />
+            <Route path="/login" element={<Login />} />
             <Route path="/recarga" element={<Recarga />} />
           </Routes>
         </div>

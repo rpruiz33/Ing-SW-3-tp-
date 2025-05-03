@@ -1,3 +1,5 @@
 .home1{width: 50%;
 border: 5px solid #232D4F;
-border-Radius: 8px }
+border-Radius: 8px ;
+min-width: 300px;
+}

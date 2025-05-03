@@ -1,13 +1,13 @@
 import React from 'react';
 import './navBar.css';
-
+import { Link } from 'react-router-dom';
 const NavBar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-nav">
       <div className="container-fluid">
-        <a className="navbar-brand" href="/">
-          Sistema Transporte Publico
-        </a>
+      <Link className="navbar-brand" to="/">
+        Sistema Transporte Publico
+      </Link>
 
         <button
           className="navbar-toggler"
@@ -26,9 +26,8 @@ const NavBar = () => {
       
       
             <li className="nav-item">
-              <a className="nav-link" href="/login">
-                Login
-              </a>
+            <Link className="nav-link" to="/login">Login</Link>
+            
             </li>
           </ul>
         </div>

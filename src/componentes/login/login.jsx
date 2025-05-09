@@ -14,7 +14,7 @@ const Login = () => {
         <div className=" h-100 bg-black mb-90 p-5 pb-1000 "> 
             <div className="row  h-100">
                 <div className="col-md-6 offset-md-3">
-                    <h2>Iniciar Sesión</h2>
+                    <h2 className="text-light">Iniciar Sesión</h2>
                     <form onSubmit={handleLogin}>
                         <div className="mb-3">
                             <label htmlFor="email" className="form-label">Email:</label>

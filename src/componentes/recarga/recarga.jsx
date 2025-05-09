@@ -32,7 +32,7 @@ const RecargaSaldo = () => {
         if (!isNaN(montoRecarga) && montoRecarga > 0) {
             const nuevoSaldo = saldo + montoRecarga;
             setSaldo(nuevoSaldo);
-            setMensaje(`¡Recarga realizada con éxito a través de ${formulario.medioPago}! Tu saldo es ahora: $${nuevoSaldo}`);
+            setMensaje(`¡Recarga realizada con éxito a través de ${formulario.medioPago}! Tu saldo es ahora: $${nuevoSaldo} y seleccionate el medio de transporte ${medio}`);
         } else {
             setMensaje('Por favor ingresa un monto válido.');
         }

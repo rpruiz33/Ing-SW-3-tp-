@@ -6,16 +6,10 @@ const RecargaSaldo = () => {
     const [medio, setMedio] = useState(''); 
     const [formulario, setFormulario] = useState({
         recarga: '',
-        medioPago: 'Mercadopago'
+        medioPago: ''
     });
 
-    const mediosDePago = [
-        'Mercadopago',
-        'BIP Movil',
-        'Banco BBVA',
-        'Banco Santander',
-        'Banco Galicia'
-    ];
+  
 
     const manejarCambio = (e) => {
         const { name, value } = e.target;
@@ -65,11 +59,12 @@ const RecargaSaldo = () => {
                                 value={formulario.medioPago}
                                 onChange={manejarCambio}
                             >
-                                {mediosDePago.map((opcion) => (
-                                    <option key={opcion} value={opcion}>
-                                        {opcion}
-                                    </option>
-                                ))}
+                              <option value="">-- Elegir --</option>
+                                <option value="Mercadopago">Mercadopago</option>
+                                <option value="Cuenta DNI">Cuenta DNI</option>
+                                <option value="MODO">MODO</option>
+                                <option value="App Santander">App Santander</option>
+                                <option value="App Galcia">App Galcia</option>
                             </select>
                         </div>
                         <div className="mb-3">

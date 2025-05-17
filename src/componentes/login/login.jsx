@@ -7,7 +7,8 @@ const Login = () => {
       e.preventDefault();
       if (e.target.email.value ==="UNLa@gmail.com" && e.target.password.value === "1234") {
         alert("Bienvenido al sistema de transporte público");
-      navigate('/recarga');
+      //navigate('/recarga');
+      navigate('/home2');
       }
     }
     return (
